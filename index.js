@@ -4,7 +4,7 @@ let bigNumber=0; // __smallNum in its big byte form.
 
 const realNumbers=(a)=>{
     if(isHDD){
-        let bytes = __smallNum*1000000000;
+        let bytes=__smallNum*1000000000;
         bigNumber=bytes/(1024*1024*1024);
         console.log('HDD SIZE: ',bigNumber.toFixed(2),'GB');
     }else{
