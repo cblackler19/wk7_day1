@@ -1,2 +1,7 @@
-const Hello='Hello, ',World='World!';
-const x=(y,z)=>{console.log(y,z);};x(Hello,World);
+const __smallNum=16;
+let bigNumber=0;
+
+const realNumbers=()=>{
+    bigNumber=__smallNum*1024;
+    console.log(bigNumber);
+};realNumbers();
